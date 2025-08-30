@@ -23,17 +23,22 @@ A simple AoB patcher for Alternative A2DP by Luculent. Modifies both `AltA2dpCon
 *   **Python 3.x:** You need Python 3 installed on your system if you will be running the python script instead of the release binary. You can download it from [https://www.python.org/downloads/](https://www.python.org/downloads/)
 *   **Original Driver Files:** The script must be run in the root installation directory of the Alternative A2DP Driver.
 
-## Installation
-
-1.  **Download:** Download the `patcher.py` script or simply run the release binary from [releases](https://github.com/medy17/A2DP-Driver-Patcher/releases).
-2.  **Locate Driver Installation Folder:** Find the root installation directory of the Alternative A2DP Driver. This is typically `C:\Program Files\Luculent Systems\AltA2DP`.
-3.  **Place Script:** Place the `patcher.py` script or release binary in the root directory (e.g., `C:\Program Files\Luculent Systems\AltA2DP`).
-4.  **Run Script or release binary**
-
-## Usage
-
-1.  **Run as Administrator:** Right-click on `patcher.py` and select "Run as administrator". Administrator privileges are required.
-2.  **Follow the Prompts:** The script will guide you through the process. If existing `.bak` files are found, you will be prompted to restore, skip, or abort. If you are not prompted, the script likely completed patching successfully.
+> ## How to Use
+>
+> ### For the Release Binary (`.exe`) - Recommended Method
+>
+> 1.  **Download:** Go to the [Releases](https://github.com/medy17/A2DP-Driver-Patcher/releases) page and download the latest `.exe` file.
+> 2.  **Place the Patcher:** Copy the downloaded `.exe` into the root installation directory of the driver (typically `C:\Program Files\Luculent Systems\AltA2DP`).
+> 3.  **Run as Administrator:** Right-click on the `.exe` file and select **"Run as administrator"**. This is required to modify files in the `Program Files` directory.
+> 4.  **Follow Prompts:** The patcher will guide you through the rest of the process.
+>
+> ### For the Python Script (`.py`)
+>
+> 1.  **Prerequisites:** Ensure you have [Python 3](https://www.python.org/downloads/) installed.
+> 2.  **Download:** Download the `patcher.py` script from the repository.
+> 3.  **Place the Script:** Copy `patcher.py` into the driver's root installation directory.
+> 4.  **Open an Admin Terminal:** Open Command Prompt or PowerShell **as an Administrator**.
+> 5.  **Run the Script:** Navigate to the installation directory in the terminal and run the script using the command: `python patcher.py`
 
 ## How to Restore the Original Driver
 
